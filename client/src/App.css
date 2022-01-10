@@ -81,6 +81,7 @@ h1 {
   letter-spacing: 1.5px;
 }
 
+/* Styling for individual hero images */
 .home-hero,
 .donate-hero {
   width: 100%;
@@ -211,6 +212,7 @@ h1 {
   align-self: center;
 }
 
+/* Media queries for intro images */
 @media (min-width: 751px) {
   .outside-image-left {
     margin-left: 2em;
@@ -224,6 +226,7 @@ h1 {
     margin: 2em;
   }
 }
+
 /* Styles for meet the animals button */
 
 .meet-button-container {
@@ -305,6 +308,7 @@ h1 {
   box-shadow: var(--bs);
 }
 
+/* Media queries for quoteContainerOne/Two  */
 @media (min-width: 700px) and (max-width: 850px) {
   #quote-container-one,
   #quote-container-two {
@@ -345,13 +349,7 @@ h1 {
   }
 }
 
-/* @media (max-width: 500px) {
-  .meet-button {
-    max-width: 4em;
-  }
-} */
-
-/* Card styles */
+/* Cards styles */
 .card-container {
   display: flex;
   justify-content: space-evenly;
@@ -432,6 +430,7 @@ h1 {
   border-top: 1px solid var(--clr-drk-green);
 }
 
+/* Media queries for cards */
 @media (min-width: 500px) and (max-width: 1000px) {
   .card-image {
     max-width: 225px;
@@ -564,6 +563,7 @@ a {
   flex-direction: column;
 }
 
+/* Media queries for donate page */
 @media (min-width: 750px) {
   .money-button-container {
     flex-direction: row;
@@ -690,6 +690,7 @@ a {
   border-top: 1px solid var(--clr-drk-green);
 }
 
+/* Media queries for sponsor page */
 @media (min-width: 1201px) {
   #sponsor-container {
     grid-template-columns: repeat(4, minmax(250px, 350px));
@@ -815,6 +816,7 @@ a {
   max-width: 325px;
 }
 
+/* Media queries for raffle page */
 @media (min-width: 850px) {
   .donate-prize-text {
     width: 55vw;
